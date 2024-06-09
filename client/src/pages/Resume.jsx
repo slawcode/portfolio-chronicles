@@ -1,3 +1,5 @@
+// import myResume from '../assets/myResume';
+
 export default function Resume() {
     return (
         <div>
@@ -6,5 +8,5 @@ export default function Resume() {
                 Please view my resume to learn more about my previous work and education experiences!
             </p>
         </div>
-    );
-}
+    )
+};
