@@ -1,6 +1,6 @@
 // This is the root folder
 // Bringing in the required import from 'react-router-dom'
-// import './App.css'
+import './App.css'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
 
