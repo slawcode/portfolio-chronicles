@@ -9,8 +9,9 @@ export default function Resume() {
             </p>
             <p>Hoover over the text below to reveal a button to download my resume:
             </p>
-            <a href="." target='_blank' rel='noopener norefererrer' className='btn'>Download My Resume!</a>
+            <a href='' target='_blank' rel='noopener norefererrer' className='btn'>Download My Resume!</a>
         </div>
+
     )
 };
 
