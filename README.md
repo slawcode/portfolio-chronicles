@@ -30,7 +30,7 @@ My React Portfolio
 ## Screenshots
 ![Screenshot of the 'About' page open](/client/src/assets/screenshot1.png)
 ![Screenshot of the 'Projects' page open](/client/src/assets/screenshot2.png)
-![Screenshot of the 'Picture' page open](/client/src/assets/myproject3.png)
+![Screenshot of the 'Picture' page open](/client/src/assets/screenshot3.png)
 ![Screenshot of the 'Resume' page open](/client/src/assets/screenshot4.png)
 ![Screenshot of the 'Contact' page open](/client/src/assets/screenshot5.png)
 
