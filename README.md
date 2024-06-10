@@ -18,4 +18,4 @@ My React Portfolio
 - 
 
 ## Credits
-
+Li, S. (2022). Note Taker. GitHub [Scource Code]. https://github.com/siennameow/note-taker.git

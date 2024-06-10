@@ -23,32 +23,36 @@ const Projects = () => {
             <img src={projectone} className='img-thumbnail'></img>
             <p className='py-1'>
                 This was my very first complete coding project ever! I was able to successfully implement the pre course work to create a static one page study guide application.
+            <p><a href="https://slawcode.github.io/prework-study-guide/">{""}Check me out!</a></p>
             </p>
-            <a href="https://slawcode.github.io/prework-study-guide/"></a>
             <img src={projecttwo} className='img-thumbnail'></img>
             <p className='py-1'>
                 The 'Password Generator' assignment was my first coding application utilizing JavaScript. After much trial and error, this project aided my understanding of the fundamentals.
+            <p><a href="https://slawcode.github.io/generate-that-password/">{""}Check me out!</a></p>
             </p>
             <a href=""></a>
             <img src={projectthree
             } className='img-thumbnail'></img>
             <p className='py-1'>
-                The SVG Logo Maker I created implemented object oriented programming. It was a fun a project, especially when complete, and being able to generate custom logos!
+                The SVG Logo Maker I created implemented object oriented programming. It was a fun a project, especially when complete, and being able to generate custom logos! I also correctly used jest tests. 
+            <p><a href="https://github.com/slawcode/svg-logo-maker.git">{""}Check me out!</a></p>
             </p>
             <a href=""></a>
             <img src={projectfour} className='img-thumbnail'></img>
             <p className='py-1'>
                 During the group assignment for project one my group and I created Harmony Hub! A unique space to foster positivity, tranquility and fun! This project utilized HTML, CSS, JavaScript and API's.
+            <p><a href="https://imooon.github.io/Harmony-Hub-App/">{""}Check me out!</a></p>
             </p>
             <a href=""></a>
             <img src={projectfive} className='img-thumbnail'></img>
             <p className='py-1'>
                 For project two my group and I created a student dashboard. I took on the implementation of a new library and utilized Multer to upload a profile picture to our student account. 
+                <p><a href="https://github.com/Rubal103/Project-2-MVC.git">{""}Check me out!</a></p>
             </p>
-            <a href=""></a>
             <img src={projectsix} className='img-thumbnail'></img>
             <p className='py-1'>
-                The "Express Note Taker" assignment used Express.js to save and delete notes. It was a fun assignment and an application I could access in a browser anywhere! I enjoyed working on the routes and learned an important lesson about the placement of the wild card!
+                The "Express Note Taker" assignment used Express.js to save and delete notes. It was a fun assignment and an application I could access in a browser anywhere! I enjoyed working on the routes and learned, not only how to deploy on Render, but an important lesson about the placement of the wild card!
+            <p><a href="https://note-to-self.onrender.com">{""}Check me out!</a></p>
             </p>
         </div>
     );
