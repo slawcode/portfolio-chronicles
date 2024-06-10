@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
+// Object destructuring assignment to pluck off variables from the props object
 // We assign them to their own variable names
 function NavTabs() {
   const currentPage = useLocation().pathname;
@@ -9,9 +9,9 @@ function NavTabs() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link
-          to="/About" // This is the base tab and goes to 'About' page 
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          to="/" // This is the base tab and goes to 'About' page 
+          // This is a conditional (ternary) operator that checks to see if the current page is "About"
+          // If it is, set the current page to 'nav-link-active', otherwise set it to 'nav-link'
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
           About
@@ -20,7 +20,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/Projects"
-          // Check to see if the currentPage is `Projects`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `Projects`, and if so use the active link class from bootstrap. Otherwise, set it to a normal nav-link
           className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}
         >
           Projects
@@ -29,7 +29,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/Picture"
-          // Check to see if the currentPage is `Picture`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `Picture`, and if so use the active link class from bootstrap. Otherwise, set it to a normal nav-link
           className={currentPage === '/Picture' ? 'nav-link active' : 'nav-link'}
         >
           Picture
@@ -37,9 +37,9 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Resume" // This is the base tab and goes to 'RESUME' page 
+          to="/Resume" // This is the base tab and goes to 'Resume' page 
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          // If it is, set the current page to 'nav-link-active', otherwise set it to 'nav-link'
           className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
@@ -48,7 +48,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/Contact"
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          // Check to see if the currentPage is `Contact`, and if so use the active link class from bootstrap. Otherwise, set it to a normal nav-link
           className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
