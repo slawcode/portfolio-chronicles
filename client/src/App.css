@@ -29,6 +29,10 @@ img {
   height: 250px;
 }
 
+.logo {
+  justify-content: center;
+}
+
 p {
   /* text-align: center; */
   margin-left: 200px;

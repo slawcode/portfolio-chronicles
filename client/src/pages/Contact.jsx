@@ -6,7 +6,8 @@ export default function Contact () {
                 {/* This is a Contact Page... */}
                 <ul>
                     <a href="https://github.com/slawcode">
-                        <p className="logo">Sheryl Lawrence GitHub: Please follow this link to contact me and/or view my other coding projects!</p>
+                        <h2>Please follow this link to contact me and/or view my other coding projects and source code!</h2>
+                        <p className="logo">Sheryl Lawrence GitHub</p>
                     </a>
                 </ul>
             </p>
