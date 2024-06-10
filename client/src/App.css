@@ -29,6 +29,12 @@ img {
   height: 250px;
 }
 
+p {
+  /* text-align: center; */
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

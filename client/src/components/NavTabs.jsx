@@ -9,21 +9,21 @@ function NavTabs() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link
-          to="/" // This is the base tab and goes to 'HOME' page 
+          to="/About" // This is the base tab and goes to 'About' page 
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          About
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/About"
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          to="/Projects"
+          // Check to see if the currentPage is `Projects`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          Projects
         </Link>
       </li>
       <li className="nav-item">

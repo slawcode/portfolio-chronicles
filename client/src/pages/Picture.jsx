@@ -25,18 +25,4 @@ import myprofilepicture from '../assets/myprofilepicture.jpeg'
 
 };
 
-
-// // export default function About() {   
-//    const Blog = () => { 
-//     return (
-//         <div>
-//             <h2>About</h2>
-//             <img src={myprofilepicture} className='img-thumbnail'></img>
-//             <p className='py-1'>
-//                 Hi! My name is Sheryl...
-//             </p>
-//         </div>
-//     );
-// }
-
 export default Picture;
