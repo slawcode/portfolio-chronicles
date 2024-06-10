@@ -28,14 +28,14 @@ My React Portfolio
 - To use this application access the live link in a browser.
 
 ## Screenshots
-![Screenshot of the 'About' page open]()
-![Screenshot of the 'Projects' page open]()
-![Screenshot of the 'Picture' page open]()
-![Screenshot of the 'Resume' page open]()
-![Screenshot of the 'Contact' page open]()
+![Screenshot of the 'About' page open](/client/src/assets/screenshot1.png)
+![Screenshot of the 'Projects' page open](/client/src/assets/screenshot2.png)
+![Screenshot of the 'Picture' page open](/client/src/assets/myproject3.png)
+![Screenshot of the 'Resume' page open](/client/src/assets/screenshot4.png)
+![Screenshot of the 'Contact' page open](/client/src/assets/screenshot5.png)
 
 ## Live Link
-
+https://tourmaline-youtiao-cb72f6.netlify.app
 
 ## Credits
 
